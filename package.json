@@ -1,0 +1,17 @@
+{
+  "name": "id-pool",
+  "version": "0.1.0",
+  "description": "Temporary unique id pooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "id",
+    "pool",
+    "unique",
+    "uid"
+  ],
+  "author": "Stephen Belanger <admin@stephenbelanger.com>",
+  "license": "MIT"
+}
