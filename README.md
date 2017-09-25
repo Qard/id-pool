@@ -1,4 +1,6 @@
 # IdPool
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Qard/id-pool.svg)](https://greenkeeper.io/)
 With IdPool, you can reserve ids that remain unique until released.
 
 ## Installation
