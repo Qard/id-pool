@@ -4,7 +4,7 @@
   "description": "Temporary unique id pooling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test.js"
   },
   "keywords": [
     "id",
@@ -13,5 +13,8 @@
     "uid"
   ],
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^12.5.1"
+  }
 }

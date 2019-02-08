@@ -2,15 +2,20 @@
 With IdPool, you can reserve ids that remain unique until released.
 
 ## Installation
-```
+```sh
 npm install id-pool
 ```
 
 ## Usage
-```
-var pool = new IdPool()
-var first = pool.reserve()
-var second = pool.reserve()
+```js
+const pool = new IdPool()
+pool.on('release', id => {
+  console.log('release', id)
+})
+
+const first = pool.reserve()
+const second = pool.reserve()
+
 setImmediate(function () {
   pool.release(first)
   pool.release(second)
@@ -18,7 +23,7 @@ setImmediate(function () {
 ```
 ---
 
-### Copyright (c) 2014 Stephen Belanger
+### Copyright (c) 2019 Stephen Belanger
 #### Licensed under MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
