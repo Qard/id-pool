@@ -15,6 +15,6 @@
   "author": "Stephen Belanger <admin@stephenbelanger.com>",
   "license": "MIT",
   "devDependencies": {
-    "tap": "^12.5.1"
+    "tap": "^14.4.2"
   }
 }
